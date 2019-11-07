@@ -1,0 +1,18 @@
+build:
+  - 'clean'
+  - 'browserify'
+  - 'uglify'
+dev:
+  - 'http-server'
+  - 'browserify'
+  - 'sass'
+  - 'watch'
+all:
+  - 'clean'
+  - 'copy'
+  - 'string-replace'
+  - 'uglify'
+  - 'browserify'
+  - 'http-server'
+  - 'sass'
+  - 'watch'
