@@ -25,6 +25,7 @@ The grunt file is split up so all components can be under the *grunt* folder. Th
     npm install
 
 ### Grunt tasks
+
 | Command               | Info
 |:---------------------:|:------------------------------------------------------:|
 | **grunt dev**         | creates a local server on port 8080, and watches files |
